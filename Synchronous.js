@@ -1,4 +1,4 @@
-//asynchronous callbacks
+//Synchronous callbacks
 console.log("one");
 
 const a=[2,4,5,7,3,8];
