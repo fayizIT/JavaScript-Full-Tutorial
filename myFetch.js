@@ -1,3 +1,4 @@
+//based on promise.js
 function myFetch(url){
     return new Promise((res,rej)=>{
         $.ajax({
