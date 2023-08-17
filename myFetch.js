@@ -10,7 +10,7 @@ function myFetch(url){
         
             },
             error: function (msg, statusText){
-                rej(statusText);
+                rej(errorrrrrrrrrrr);
             },
         }); 
 
