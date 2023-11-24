@@ -1,20 +1,20 @@
-function add(a,b){
-    function myadd(){
-        const c = a + b;
-        return c;
+// function add(a,b){
+//     function myadd(){
+//         const c = a + b;
+//         return c;
 
-    }
+//     }
     
-    return myadd;
-}
+//     return myadd;
+// }
 
-function main(){
-    const res =add(6,7);
-    const val=res();
-    console.log (val);
+// function main(){
+//     const res =add(6,7);
+//     const val=res();
+//     console.log (val);
 
-}
-main();
+// }
+// main();
 
 var obj =[
     {
