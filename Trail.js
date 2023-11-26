@@ -40,6 +40,76 @@
 // console.log(result)
 
 
+///call by value example
+
+// function one(){
+// var a = 100
+
+// two(a)
+// console.log("onefunction",a);
+
+// }
+
+// function two (a){
+//     a= a +200
+//     console.log("functiontwo", a);
+
+// }
+
+// one()
+
+///call by Reference
+
+// function firstFn(){
+//     var a ={
+//         value:100
+//     }
+//     SecondFn(a)
+//     console.log("firstFn----", a.value);
+// }
+
+// function SecondFn (a){
+//     a.value= a.value+100;
+//     console.log("SecondFn----",a.value);
+// }
+
+// firstFn()
+
+
+
+obj =[
+    {
+        name:"one",
+        msg:"Hi am one"
+    },{
+        name:"two",
+        msg:"Hi am two"
+    },{
+        name:"Three",
+        msg:"Hi am Three"
+    }
+];
+
+
+function Hello(){
+    obj.forEach((item)=>{
+        const button = document.createElement("button")
+        button.innerHTML = item.name
+        button.onclick = hai(item.msg)
+        document.body.appendChild(button);
+    })
+}
+
+
+function hai(arg){
+    return function (){
+        alert(arg)
+    }
+}
+
+Hello()
+
+
 
 
 
